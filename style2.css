@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding:0; 
+    list-style: none;
+    
+    text-decoration: none;
+    
+    
+}
+
+body{
+    background: linear-gradient(57deg, #1E4D92, #00C6A7 );
+
+}
+#main-wrapper{
+	border-radius : 10px;
+	background-color: #1E4D92;
+	border: 3px solid #f1f1f1;
+	width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+nav{
+    width: 100%; height: 100px;
+    background-color:  #0f8a9d;
+    display: flex; color: white;
+    border-radius: 20px;
+    position: fixed;
+    
+    
+    
+}
+
+.logo{
+    width: 50%;
+    height: 100px;
+}
+
+.logo h1{
+    line-height: 100px;
+    padding-left: 50px;
+    
+}
+
+.menu{
+    width: 50%; height: 100px;
+    
+}
+
+.menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+}
+
+.menu ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    
+    text-transform: uppercase;
+}
+.menu ul li button{
+    background: linear-gradient(57deg, #00C6A7, #1E4D92 ); 
+    
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;  
+    border-radius: 4px 4px 4px 4px;
+    padding: 15px 25px ;
+}
+.menu ul li button:hover{
+    background: linear-gradient(57deg, #1E4D92, #00C6A7 );   
+}
+section{ display: flex; }
+
+  
+    .header1{
+        width: 100%;
+        position: fixed;
+    }
+    
+    
+.sidebar{
+    
+    position: fixed;
+    padding-top: 10px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 100px;
+    
+    left: 5px;
+    width: 250px;
+    height: 680px;
+    background: #042331;
+}
+.sidebar header{
+    font-size: 20px;
+    border-radius: 20px 20px 20px 20px;
+    color: wheat;
+    text-align: center;
+    background: #063146;
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: wheat;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(255,255,255,.1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+ul li:hover a{
+    padding-left: 50px;
+
+}
+.sidebar ul a i{
+    margin-right: 15px;
+}
+.rightside{ width: 55%; height: 690px; color: white; text-align: center; margin-top: 100px;margin-left: 500px;}
+
+
+
+.rightside p {  
+    
+    font-size: 1.1rem; padding: 30px 0; 
+}
+    .rightside button{   font-size: 17px;
+        font-weight: 600;
+        color: white;
+        text-transform: uppercase;
+        
+        background: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+        border-radius: 4px 4px 4px 4px;
+        padding: 20px 35px ; 
+    }
+
+
+
+.rightside button:hover{
+      background: linear-gradient(57deg, #1E4D92, #00C6A7 );   
+}

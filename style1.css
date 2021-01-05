@@ -1,0 +1,48 @@
+.ReturnButton button{
+    margin-left: 45%;
+    background: linear-gradient(57deg, #00C6A7, #1E4D92 );
+
+}
+.ReturnButton button:hover{
+    margin-left: 45%;
+    background: linear-gradient(57deg,#1E4D92, #00C6A7  );
+
+}
+body{
+    background: #063146;
+}
+form{
+    width: 30%;
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid #555;
+
+}
+
+input{
+    width: 100%;
+    border: 1px solid #f1e1e1;
+    display: block;
+    padding: 5px 10px;
+
+
+}
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 100px auto;
+}
+ th,
+ td{
+     background: #00C6A7;
+    height: 50px;
+    vertical-align: center;
+    border: 1px solid black;
+    
+  }

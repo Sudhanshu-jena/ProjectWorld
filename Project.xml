@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CATALOG>
+	<PROJECT>
+		<PROJECT_ID>SFT1</PROJECT_ID>
+		<PROJECT_NAME>COMPANY DATABASE</PROJECT_NAME>
+		<PROJECT_COMPANY>Google</PROJECT_COMPANY>
+		<PROJECT_ORGANISATION>EPIC</PROJECT_ORGANISATION>
+		<PROJECT_FACULTY>Ravi Mathur</PROJECT_FACULTY>
+		<PROJECT_DETAIL>-	The company is organized into departments. 
+-	Each department has a unique name, a unique number, and aemployee who manages the department. 
+-	We keep track of the start date when that employee began managing the department. 
+-	A department may have several locations. 
+-	A department controls a number of projects, each of which has a unique name, a unique number, and a single location. 
+-	We store each employee’s name, social security number, address, salary, sex and birthdate.
+-	An employee is assigned to one department but may work on several projects, which are not necessarily controlled by the same department. 
+-	We keep track of the number of hours per week that an employee works on each project. 
+-	We also keep track of the direct supervisor of each employee. 
+-	We want to keep track of the dependents of each employee for insurance purposes. 
+-	We keep each dependent’s name, sex, birthdate, and relationship to the employee.
+</PROJECT_DETAIL>
+	</PROJECT>
+    <PROJECT>
+		<PROJECT_ID>SFT2</PROJECT_ID>
+		<PROJECT_NAME>BANK DATABASE SYSTEM</PROJECT_NAME>
+		<PROJECT_COMPANY>Microsoft</PROJECT_COMPANY>
+		<PROJECT_ORGANISATION>EPIC</PROJECT_ORGANISATION>
+		<PROJECT_FACULTY>Ravi Mathur</PROJECT_FACULTY>
+		<PROJECT_DETAIL>-	Each bank has a unique name. Each branch has a number, name, address (number, street, city), and set of phones.
+-	Customer includes their name, set of address (P.O. Box, city, zip code, country), set of phones, and social security number. Accounts have numbers, types (e.g. saving, checking) and balance. 
+-	Other branches might use the same designation for accounts. So to name an account uniquely, we need to give both the branch number to which this account belongs to and the account number.
+-	Not all bank customers must own accounts and a customer may have at most 5 accounts in the bank.
+-	An account must have only one customer. A customer may have many accounts in different branches.
+-	Specify key attributes of each entity type and structural constraints on each relationship type.
+-	Note any unspecified requirements and make appropriate assumptions to make the specification complete.
+</PROJECT_DETAIL>
+	</PROJECT>
+    <PROJECT>
+		<PROJECT_ID>SFT3</PROJECT_ID>
+		<PROJECT_NAME>UNIVERSITY DATABASE</PROJECT_NAME>
+		<PROJECT_COMPANY>Microsoft</PROJECT_COMPANY>
+		<PROJECT_ORGANISATION>EPIC</PROJECT_ORGANISATION>
+		<PROJECT_FACULTY>Ravi Mathur</PROJECT_FACULTY>
+		<PROJECT_DETAIL>-	In a University, there are several departments and each department has a head of department who 
+        belongs to Faculty. 
+-	Department have a name, phone extension, specific mailing address and Students that belong to the department. 
+-	Students can belong to only one Department at a time and Department can have more than one or no Student.
+-	Students and faculty have names and unique identification numbers, with address, age, gender and other information. 
+-	Student studies different Courses offered by University. Faculty teaches these Courses. 
+-	In each semester one student can take more than one course and Faculty can teach more than one courses. 
+-	Faculty members can teach in multiple Departments. Each course can be taught by many faculty members or no one.
+-	Faculty members are also working on multiple research projects. These projects are funded by government and university. 
+-	One project can have more than one faculty member and one faculty member can work on more than one project
+</PROJECT_DETAIL>
+	</PROJECT>
+    <PROJECT>
+		<PROJECT_ID>SFT4</PROJECT_ID>
+		<PROJECT_NAME>DATABASE FOR A SMALL DRUG STORE</PROJECT_NAME>
+		<PROJECT_COMPANY>Microsoft</PROJECT_COMPANY>
+		<PROJECT_ORGANISATION>EPIC</PROJECT_ORGANISATION>
+		<PROJECT_FACULTY>Ravi Mathur</PROJECT_FACULTY>
+		<PROJECT_DETAIL>A database specialist wants to design a part of the database for a small drug store owner as follows: 
+The owner wants to keep track of all the suppliers who supply anything to the store. For each supplier, the owner assigns a 
+unique supplier number, and wants to keep the company name, address (number, street, city, state, zip), contact person's name, 
+phone number, fax number, and a comment for each supplier. For each supply activity, an account is established to keep track of
+ the date incurred, the total cost of the activity, due date for payment, outstanding balance after some payments, and any special 
+ comments related to the account. For each account, the owner may pay at several different times and in different ways 
+ (e.g., cash, check, credit card). For each payment activity, the owner wants to keep the date of payment, amount of payment,
+  method of payment (check: check number; credit card: credit card name, type, and number). Note that one supplier can supply
+   many times and one payment can pay for several accounts of the same supplier.
+</PROJECT_DETAIL>
+	</PROJECT>
+    <PROJECT>
+		<PROJECT_ID>SFT5</PROJECT_ID>
+		<PROJECT_NAME>ART GALLERY DATABASE</PROJECT_NAME>
+		<PROJECT_COMPANY>Microsoft</PROJECT_COMPANY>
+		<PROJECT_ORGANISATION>EPIC</PROJECT_ORGANISATION>
+		<PROJECT_FACULTY>Ravi Mathur</PROJECT_FACULTY>
+		<PROJECT_DETAIL>The Art galleries keep information about artists, their name (which are unique birthplace, age, and style of art.) For each piece of artwork, the artist. The year it was made, its unique title, its type of art (e.g. painting, sculpture), and its price must be stored.
+a.	Pieces of artwork are also classified of various kinds e.g. portraits, still life works by Picasso or works by 19th century a given piece may belong to more than one group. 
+b.	Each group id identified by a name(like those given) that describes the group.
+c.	Galleries keep information about customers like persons (unique name, address, total amt spent, artist and the group of art that the customer tends to like).
+</PROJECT_DETAIL>
+	</PROJECT>
+    <PROJECT>
+		<PROJECT_ID>SFT6</PROJECT_ID>
+		<PROJECT_NAME>HOSPITAL MANAGEMENT SYSTEM</PROJECT_NAME>
+		<PROJECT_COMPANY>Microsoft</PROJECT_COMPANY>
+		<PROJECT_ORGANISATION>EPIC</PROJECT_ORGANISATION>
+		<PROJECT_FACULTY>Ravi Mathur</PROJECT_FACULTY>
+		<PROJECT_DETAIL>Aim: XYZ hospital is a multi-specialty hospital that includes a number of 
+        departments, rooms, doctors, nurses, compounders, and other staff working in the hospital. 
+        Patients having different kinds of ailments come to the hospital and get checkup done from the concerned doctors. 
+        If required they are admitted in the hospital and discharged after treatment. 
+        The aim of this case study is to design and develop a database for the hospital to maintain the records of various departments,
+         rooms, and doctors in the hospital. It also maintains records of the regular patients, patients admitted in the hospital,
+         the checkup of patients done by the doctors, the patients that have been operated, and patients discharged from the hospital. 
+Description: In hospital, there are many departments like Orthopedic, Pathology, Emergency, Dental, Gynecology, Anesthetics, 
+I.C.U., Blood Bank, Operation Theater, Laboratory, M.R.I., Neurology, Cardiology, Cancer Department, Corpse, etc. 
+ is an OPD where patients come and get a card (that is, entry card of the patient) for check up from the concerned doctor. 
+ After making entry in the card, they go to the concerned doctor’s room and the doctor checks up their ailments. 
+ According to the ailments, the doctor either prescribes medicine or admits the patient in the concerned department.
+  The patient may choose either private or general room according to his/her need. But before getting admission in the hospital,
+   the patient has to fulfill certain formalities of the hospital like room charges, etc. After the treatment is completed,
+    the doctor discharges the patient. Before discharging from the hospital, the patient again has to complete 
+    certain formalities of the hospital like balance charges, test charges, operation charges (if any),
+    blood charges, doctors’ charges, etc. Next, we talk about the doctors of the hospital. There are two
+     types of the doctors in the hospital, namely, regular doctors and call on doctors. Regular doctors
+      are those doctors who come to the hospital daily. Calls on doctors are those doctors who are called 
+      by the hospital if the concerned doctor is not available
+</PROJECT_DETAIL>
+	</PROJECT>
+    <PROJECT>
+		<PROJECT_ID>SFT7</PROJECT_ID>
+		<PROJECT_NAME>RAILWAY RESERVATION</PROJECT_NAME>
+		<PROJECT_COMPANY>Microsoft</PROJECT_COMPANY>
+		<PROJECT_ORGANISATION>EPIC</PROJECT_ORGANISATION>
+		<PROJECT_FACULTY>Ravi Mathur</PROJECT_FACULTY>
+		<PROJECT_DETAIL>The railway reservation system facilitates the passengers to enquire about the trains available on 
+        the basis of source and destination, booking and cancellation of tickets, enquire about the status of the booked ticket, etc. 
+        The aim of case study is to design and develop a database maintaining the records of different trains, train status,
+         and passengers. The record of train includes its number, name, source, destination, and days on which it is available, 
+         whereas record of train status includes dates for which tickets can be booked, total number of seats available, 
+         and number of seats already booked. The database has been developed and tested on the Oracle.
+ Description: Passengers can book their tickets for the train in which seats are available. For this, passenger has to 
+ provide the desired train number and the date for which ticket is to be booked. Before booking a ticket for a passenger,
+  the validity of train number and booking date is checked. Once the train number and booking date are validated, 
+  it is checked whether the seat is available. If yes, the ticket is booked with confirm status and corresponding 
+  ticket ID is generated which is stored along with other details of the passenger. After all the available tickets
+   are booked, certain numbers of tickets are booked with waiting status. If waiting lot is also finished, 
+   then tickets are not booked and a message of non‐availability of seats is displayed. The ticket once booked can be 
+   cancelled at any time. For this, the passenger has to provide the ticket ID (the unique key). The ticket ID is searched,
+    and the corresponding record is deleted. With this, the first ticket with waiting status also gets confirmed.
+</PROJECT_DETAIL>
+	</PROJECT>
+   
+</CATALOG>
