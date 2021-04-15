@@ -36,15 +36,15 @@
 
          <!--second Heading -->
         <h4>PHONE</h4>
-         <span>(+91)9730620905</span>
+         <span>(+91)9730620000</span>
          <hr><br><br>
 
        <!--third Heading -->
         <h4>EMAIL</h4>
-         <span>sudhanshujena@ternaengg.ac.in</span> </br>
-         <span>ishanbhagat@ternaengg.ac.in</span></br>
-         <span>tejasmanjrekar@ternaengg.ac.in</span></br>
-         <span>prathameshdhoke@ternaengg.ac.in</span>
+         <span>sudhanshu@ternaengg.ac.in</span> </br>
+         <span>ishan@ternaengg.ac.in</span></br>
+         <span>tejas@ternaengg.ac.in</span></br>
+         <span>prathamesh@ternaengg.ac.in</span>
          
          <hr> <br>
 
