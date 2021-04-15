@@ -1,6 +1,6 @@
 <?php
 // connect to the database
-$conn = mysqli_connect('localhost', 'root', 'Bsdk@BKp007', 'projectworld');
+$conn = mysqli_connect('localhost', 'root', '', 'projectworld');
 
 $sql = "SELECT * FROM repository";
 $result = mysqli_query($conn, $sql);

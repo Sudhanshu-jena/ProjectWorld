@@ -4,7 +4,7 @@ class config{
     public static function conectphp(){
         $servername = "localhost";
         $username = "root";
-        $password = "Bsdk@BKp007";
+        $password = "";
 
         try {
             $conn = new PDO("mysql:host=$servername;dbname=projectworld", $username, $password);

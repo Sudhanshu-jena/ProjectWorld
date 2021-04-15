@@ -81,7 +81,7 @@
 if(isset($_POST['delete']))
 {
     try {
-        $pdoConnect = new PDO("mysql:host=localhost;dbname=projectworld","root","Bsdk@BKp007");
+        $pdoConnect = new PDO("mysql:host=localhost;dbname=projectworld","root","");
     
     
      // get id to delete
